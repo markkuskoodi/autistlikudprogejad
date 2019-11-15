@@ -1,0 +1,53 @@
+h1{
+    font-family: "Work Sans" ;
+    text-align: center;
+    height: 125px;
+    border-bottom-style:10px solid transparent;
+    padding:15px;
+    background-color: rgb(50, 50, 201);
+    color: white;
+}
+body{
+    background-color: rgb(151, 151, 229);
+    
+}
+#lambipask{
+  border-image-source: url(https://cdn.pixabay.com/photo/2017/02/01/19/53/leafy-2031234_960_720.png);
+  border-image-slice: 20 22;
+  border-image-repeat: round;
+}
+
+.storybox{
+    font-family: "Work Sans";
+    margin-bottom: 300px
+    
+}
+a:link, a:visited{
+    margin-left: 50px;
+    margin-right: 50px;
+    display:inline-block;
+    padding:14px 25px;
+    color:white;
+    border-style: 3px solid;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.644);
+    
+}
+a:hover, a:active{
+    background-color:red;   
+    border-style: 3px solid;
+    border-radius: 3px;
+}
+.valikubox{
+    font-family: "Work Sans";
+    text-align: center;
+
+    
+}
+
+/**
+@font-face {
+    font-family: "Pühvel";
+    src: url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+}
+**/
