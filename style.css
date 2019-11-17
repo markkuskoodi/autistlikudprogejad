@@ -1,26 +1,89 @@
-h1{
-    font-family: "Work Sans" ;
-    text-align: center;
-    height: 125px;
-    border-bottom-style:10px solid transparent;
-    padding:15px;
-    background-color: rgb(50, 50, 201);
-    color: white;
-}
+
 body{
-    background-color: rgb(151, 151, 229);
-    
+    background-image:url('city41.jpg');
+    padding:100px;
+    margin-top:500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
 }
-#lambipask{
-  border-image-source: url(https://cdn.pixabay.com/photo/2017/02/01/19/53/leafy-2031234_960_720.png);
-  border-image-slice: 20 22;
-  border-image-repeat: round;
+#main{
+    width:1200px;
+    margin:0 auto;
+    background:#f4f4f4;
+    box-shadow: 0 0px 12px #17181b, 0 3px 12px #17181b;
+    border-radius: 10px;
+    text-align: justify;
+}
+#header{
+    font-family: 'Work Sans';
+    text-align: center;
+    font-size: 80px;
+    padding:15px;
+    color:white;
+    text-shadow:2px 2px 5px black;
+}
+#img1{
+    max-width: 100%;
+    display: block;
+    margin:auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.vahekaart{
+    width: auto;
+    height: 200px;
+    background-color:white;
+    text-align: center;
+    font-family: "work Sans";
+
+
+
+
 }
 
 .storybox{
     font-family: "Work Sans";
-    margin-bottom: 300px
+    margin:auto;
+    padding:50px;
+
+
     
+}
+.valikubox{
+    height:300px;
+    width: auto;
+    padding:30px;
+    text-align: justify;
+    background-color:#1e1f23;
+    color:white;
+    font-family: 'Work Sans';
+
+}
+h3{
+    text-align: justify;
+    font-family: "Work Sans";
+}
+#cimg1,#cimg2,#cimg3{
+    max-width: 300px;
+    max-height: 300px;
+    display: inline-table;
+    float:right;
+    margin:0 0 2rem 0;
+
+}
+}
+p{
+    font-size:18px;
+    color:#1e1f23;
+}
+span{
+    font-size:18px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+
 }
 a:link, a:visited{
     margin-left: 50px;
@@ -38,16 +101,3 @@ a:hover, a:active{
     border-style: 3px solid;
     border-radius: 3px;
 }
-.valikubox{
-    font-family: "Work Sans";
-    text-align: center;
-
-    
-}
-
-/**
-@font-face {
-    font-family: "Pühvel";
-    src: url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
-}
-**/
