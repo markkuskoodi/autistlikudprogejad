@@ -45,6 +45,7 @@ body {
 
 .storybox {
     font-family: "Work Sans";
+<<<<<<< HEAD
     margin: auto;
     padding: 50px;
     
@@ -57,6 +58,7 @@ body {
     background-color: #1e1f23;
     color: white;
     font-family: 'Work Sans';
+
 
 }
 h3 {
@@ -96,4 +98,24 @@ a:hover, a:active {
     background-color: red;   
     border-style: 3px solid;
     border-radius: 3px;
+}
+.valikud{
+    margin:0;
+    padding:0;
+    text-align: center;
+
+}
+.valikucontainer{
+    display:inline-block;
+    padding-top:;
+    background-color:gray;
+    height:400px;
+    width: 300px;
+    margin-left: 30px;
+    box-shadow:0 0px 12px #17181b, 0 3px 12px #17181b;
+}
+#valikuimg{
+    width: 300px;
+    height: 250px;
+    display: block;
 }
