@@ -48,33 +48,12 @@ body{
     font-family: "Work Sans";
     margin:auto;
     padding:50px;
-
-
-    
-}
-.valikubox{
-    height:300px;
-    width: auto;
-    padding:30px;
-    text-align: justify;
-    background-color:#1e1f23;
-    color:white;
-    font-family: 'Work Sans';
-
 }
 h3{
     text-align: justify;
     font-family: "Work Sans";
 }
-#cimg1,#cimg2,#cimg3{
-    max-width: 300px;
-    max-height: 300px;
-    display: inline-table;
-    float:right;
-    margin:0 0 2rem 0;
 
-}
-}
 p{
     font-size:18px;
     color:#1e1f23;
@@ -100,4 +79,24 @@ a:hover, a:active{
     background-color:red;   
     border-style: 3px solid;
     border-radius: 3px;
+}
+.valikud{
+    margin:0;
+    padding:0;
+    text-align: center;
+
+}
+.valikucontainer{
+    display:inline-block;
+    padding-top:;
+    background-color:gray;
+    height:400px;
+    width: 300px;
+    margin-left: 30px;
+    box-shadow:0 0px 12px #17181b, 0 3px 12px #17181b;
+}
+#valikuimg{
+    width: 300px;
+    height: 250px;
+    display: block;
 }
