@@ -1,30 +1,30 @@
 
-body {
-    background-image: url('city41.jpg');
-    padding: 100px;
-    margin-top: 500px;
+body{
+    background-image:url('city41.jpg');
+    padding:100px;
+    margin-top:500px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
 
 }
-#main {
-    width: 1200px;
-    margin: 0 auto;
-    background: #f4f4f4;
+#main{
+    width:1200px;
+    margin:0 auto;
+    background:#f4f4f4;
     box-shadow: 0 0px 12px #17181b, 0 3px 12px #17181b;
     border-radius: 10px;
     text-align: justify;
 }
-#header {
+#header{
     font-family: 'Work Sans';
     text-align: center;
     font-size: 80px;
-    padding: 15px;
-    color: white;
-    text-shadow: 2px 2px 5px black;
+    padding:15px;
+    color:white;
+    text-shadow:2px 2px 5px black;
 }
-#img1 {
+#img1{
     max-width: 100%;
     display: block;
     margin: auto;
@@ -32,70 +32,53 @@ body {
     border-top-right-radius: 10px;
 
 }
-.vahekaart {
+.vahekaart{
     width: auto;
-    height: 100px;
-    padding-top: 6px;
-    padding-bottom: 10px;
-    background-color: white;
+    height: 200px;
+    background-color:white;
     text-align: center;
     font-family: "work Sans";
+    margin-top: -18px;
+    padding-top: 20px;
+
+
+
 
 }
 
-.storybox {
+.storybox{
     font-family: "Work Sans";
-<<<<<<< HEAD
-    margin: auto;
-    padding: 50px;
-    
+    margin:auto;
+    padding:50px;
 }
-.valikubox {
-    height: 300px;
-    width: auto;
-    padding: 30px;
-    text-align: justify;
-    background-color: #1e1f23;
-    color: white;
-    font-family: 'Work Sans';
-
-
-}
-h3 {
+h3{
     text-align: justify;
     font-family: "Work Sans";
 }
-#cimg1,#cimg2,#cimg3 {
-    max-width: 300px;
-    max-height: 300px;
-    display: inline-table;
-    float: right;
-    margin: 0 0 2rem 0;
 
+p{
+    font-size:18px;
+    color:#1e1f23;
 }
-p {
-    font-size: 18px;
-    color: #1e1f23;
-}
-span {
-    font-size: 18px;
-    color: white;
+span{
+    font-size:18px;
+    color:white;
     text-shadow: 2px 2px 2px black;
 
 }
-a:link, a:visited {
+a:link, a:visited{
     margin-left: 50px;
     margin-right: 50px;
-    display: inline-block;
-    padding: 14px 25px;
-    color: white;
+    display:inline-block;
+    padding:14px 25px;
+    color:white;
     border-style: 3px solid;
     border-radius: 3px;
     background-color: rgba(255, 0, 0, 0.644);
     
 }
-a:hover, a:active {
-    background-color: red;   
+a:hover, a:active{
+    background-color:red;   
     border-style: 3px solid;
     border-radius: 3px;
 }
@@ -107,15 +90,46 @@ a:hover, a:active {
 }
 .valikucontainer{
     display:inline-block;
-    padding-top:;
     background-color:gray;
-    height:400px;
+    height: 300px;
     width: 300px;
     margin-left: 30px;
-    box-shadow:0 0px 12px #17181b, 0 3px 12px #17181b;
+    box-shadow:0 0px 12px #82838a, 0 3px 12px #82838a;
+    margin-bottom: 50px;
 }
 #valikuimg{
-    width: 300px;
-    height: 250px;
+    max-width: 100%;
+    height:100%;
     display: block;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+.valikucontainer {
+    position: relative;
+    width: 25%;
+}
+.valikucontainer:hover .overlay {
+    opacity: 0.7;
+}
+.overlaytext {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
