@@ -62,34 +62,13 @@ span{
     text-shadow: 0 0px 12px #82838a, 0 3px 12px #82838a;
 
 }
-a:link, a:visited{
-    margin-left: 50px;
-    margin-right: 50px;
-    display: inline-block;
-    padding: 14px 25px;
-    color: white;
-    border-style: 3px solid;
-    border-radius: 3px;
-    background-color: rgba(255, 0, 0, 0.644);
-    
-}
-a:hover, a:active{
-    background-color: red;   
-    border-style: 3px solid;
-    border-radius: 3px;
-}
 .valikulink{
     text-decoration: none;
     border: 0;
 }
 .valikud{
-<<<<<<< HEAD
-    margin:0;
-    padding:60px 0;
-=======
     margin: 0;
     padding: 0;
->>>>>>> 04761684a3acc254a4384c96ea7fa7869bdcafca
     text-align: center;
     background-color:#eceadf ;
 
@@ -100,13 +79,8 @@ a:hover, a:active{
     height: 300px;
     width: 300px;
     margin-left: 30px;
-<<<<<<< HEAD
-    box-shadow:0 0px 12px #82838a, 0 3px 12px #82838a;
-    margin-bottom: 20px;
-=======
     box-shadow: 0 0px 12px #82838a, 0 3px 12px #82838a;
     margin-bottom: 50px;
->>>>>>> 04761684a3acc254a4384c96ea7fa7869bdcafca
 }
 #valikuimg{
     max-width: 100%;
@@ -123,14 +97,11 @@ a:hover, a:active{
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(173, 176, 177);
+    background-color: rgb(173, 176, 177,0.6);
 }
 .valikucontainer {
     position: relative;
     width: 25%;
-}
-.valikucontainer:hover .overlay {
-    opacity: 0.8;
 }
 .overlaytext {
     color: white;
@@ -144,4 +115,10 @@ a:hover, a:active{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    text-shadow: 0 2px 3px #525151, 0 2px 3px #525151;
 }
+
+.valikucontainer:hover .overlay {
+    opacity: 0.9;
+}
+
