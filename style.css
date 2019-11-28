@@ -84,8 +84,9 @@ a:hover, a:active{
 }
 .valikud{
     margin:0;
-    padding:0;
+    padding:60px 0;
     text-align: center;
+    background-color:#eceadf ;
 
 }
 .valikucontainer{
@@ -95,7 +96,7 @@ a:hover, a:active{
     width: 300px;
     margin-left: 30px;
     box-shadow:0 0px 12px #82838a, 0 3px 12px #82838a;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 #valikuimg{
     max-width: 100%;
