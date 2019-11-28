@@ -102,6 +102,7 @@ span{
 .valikucontainer {
     position: relative;
     width: 25%;
+    margin-top: 50px;
 }
 .overlaytext {
     color: white;
