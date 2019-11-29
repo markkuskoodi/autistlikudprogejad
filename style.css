@@ -35,7 +35,7 @@ body{
 .vahekaart{
     width: auto;
     height: 110px;
-    background-color:white;
+    background-color:rgb(100, 99, 99);
     text-align: center;
     font-family: "work Sans";
     margin-top: -18px;
@@ -46,6 +46,10 @@ body{
     font-family: "Work Sans";
     margin: auto;
     padding: 50px;
+}
+.storybox p{
+    text-align: justify;
+
 }
 h3{
     text-align: justify;
@@ -97,7 +101,7 @@ span{
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: rgb(173, 176, 177,0.6);
+    background-color: rgb(173, 176, 177, 0.6);
 }
 .valikucontainer {
     position: relative;
