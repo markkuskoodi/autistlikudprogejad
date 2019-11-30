@@ -24,7 +24,7 @@ const STORY = {
                 Pärast kaht tundi und ärkad süümepiinadega, aga mis tehtud see tehtud.<br><br>\
                 Nüüd, kus unepuudus on järgi andnud, kergitab kaloripuudus pead. Sead sammud toidukapi poole, kust sulle vaatab vastu\
                 laiutav tühjus. Leiad üksnes kapi nurgas asetsevad hommikuhelbeid. Jällegi ilmutab ennast uus peadmurdev valik.<br><br>\
-                <b>Mida ma nüüd teed?</b>",
+                <b>Mida sa nüüd teed?</b>",
         buttons: [
             {
                 image: "img/magama/helbed.jpg",
@@ -49,7 +49,7 @@ const STORY = {
                 Jõudes raamatukokku paned oma viimase euroga riided riidehoidu ja kiirustad üles. Avad ukse\
                 ja leiad ennast saali keskelt lolli näoga oma kursakaaslasest crushi jõllitamast ning jälle seisad valiku ees.\
                 Üle oma möllavate hormoonide on mõtteis vaikselt kuulda ka häält, mis kõlab kahtlaselt kaine mõistuse moodi.<br><br>\
-                <b>Mida sa teed?</b><br><br>\
+                <b>Mida sa nüüd teed?</b><br><br>\
                 Kordad mataks koos oma crushiga, teades, et emotsioonid võivad segada õppetööd, kuid samas kaks pead on kaks pead.<br><br>\
                 VÕI<br><br>\
                 Kordad mataks üksi, lootes oma individuaalsele tarkusele, mida pole just palju, kuid saad vähemalt keskenduda.<br><br>",
@@ -166,19 +166,20 @@ const STORY = {
                 Küll aga tihtipeale ei suuda sa hoida oma mõtteid vaos ning avastad ennast ikka ja jälle matemaatika asemel unistamast teist kahest koos hobusel päikseloojangusse kappamas.\
                 Kui teemaks tuleb päratu integraal hakkab teie vahel tüliõun kerkima.See oli küll ainuke asi millest sa enda arvates tunnis perfektselt aru said.<br><br>\
                 Olgugi, et see tund oli üksainus praks, milles sa natukene tähele panna viitsid.Su kergelt ärritunud silmarõõm kirjutab tahvlile järgmise integraali ja laseb sul seda lahendada.<br><br>\
-                <img src='img/raaamatukogu/integraal.png'><br><br>\
+                <img src='img/raaamatukogu/integraal.png' alt='integraal'><br><br>\
                 Vaidlete tükk aega selle lahenduse üle ja olukord läheb konsensuse puudumise tõttu järjest pingelisemaks.\
                 Sa ei teadnudki, et tal selline pool on.<br><br>\
-                Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.<br><br>",
+                Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.<br><br>\
+                <b>Mida sa nüüd teed?</b>",
         buttons: [
             {
-                image: "img/raamatukogu/integraalMain.jpg",
-                text: "10π",
+                image: "img/raamatukogu/mata.jpg",
+                text: "10pi",
                 action: "kordanIse",
             },
             {
-                image: "img/raamatukogu/integraalMain.jpg",
-                text: "6π - 7",
+                image: "img/raamatukogu/mata2.jpg",
+                text: "6pi - 7",
                 action: "kordanIse"
             }
         ]
@@ -190,12 +191,12 @@ const STORY = {
         story: "Sead on akadeemilise edu hormoonidest tähtsamaks ja otsustad üksi korrata, olgugi, et jääd ainult oma naturaalsele intelligetnsile lootma.",
         buttons: [
             {
-                image: "img/raamatukogu/kondoom.jpg",
+                image: "img/raamatukogu/valevastusMain2.jpg",
                 text: "tekst",
                 action: "istunMusiJuurde",
             },
             {
-                image: "img/raamatukogu/kondoom.jpg",
+                image: "img/raamatukogu/õigevastusMain.jpg",
                 text: "tekst",
                 action: "istunMusiJuurde",
             }
