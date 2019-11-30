@@ -1,52 +1,29 @@
 <!DOCTYPE html>
 <html lang='et'>
     <head>
-        <script src="https://ajax.google.apis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js"></script>
-
         <meta charset='utf-8'>
         
+        <script src="raamatukogu.js"></script>
+        <script src="lood.js"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/style.css'>
+        <link rel='stylesheet' href='css/styleRams.css'>
         
-        <title>ÜLI ÄGE MÄNG!!!??!?!</title>
+        <title>Tudengielu</title>
     </head>
     <body>
         <section id='main'>
-            <img src='img/raamatukogu/raamatukogu2.jpg' id='img1'>
+            <img id="suurPilt" src='' class='img1'>
             <div class=vahekaart>
-                <h2>Raamatukogus</h2>
-                <p>Mõni tund enne tööd</p>
+                <h2 id="suurPealkiri"></h2>
+                <p id="väikePealkiri"></p>
             </div>
             <div class=storybox>
-                <p>Varajane hommik.</p>
-                <p>Veedad oma viimaseid minuteid pehmel padjal ja sooja teki all, kuid unesegadusest ja palvetest hoolimata saad aru, et iga hetk hakkab äratuskell lõugama, tähistades uue nädala algust. Oma viimastel vaikusemomentidel tunned suus eile Illegaardis joodud kokteilide maitseid ja veedad mõtetes veel paar hetke justkui paradiisis, milleks oli möödnud nädalavahetus.</p>
-
-                <p>Kell hakkab lõugama.</p>
-
-                <p>Kriiskava äratuse saatel kinnistub algava koolinädala karm reaalsus sulle järjest rohkem pähe, ning olenemata sellest, kui palju sa sellele "Snooze" nupule vajutad, pead sa kunagi ikka ennast üles ajama.</p>
-
-                <p>Järsku meenub sulle, et täna kell 12 on KM-is KT. Momentaarne ahastus seguneb paanikaga ja sa kargad voodist välja.</p>
-
-                <p><b>Mida sa nüüd teed?</b></p>
+                <p id="jutt"></p>
             </div>
-            <div class=valikud>
-                <div class=valikucontainer>
-                    <a class="valikulink" href="magan.html"> 
-                        <img src='img/raamatukogu/Üksi1.jpg' id='valikuimg'>
-                        <div class="overlay">
-                            <p class="overlaytext">Kordan ise</p>
-                        </div>
-                    </a>
-                </div>
-                <div class=valikucontainer>
-                    <a class='valikulink' href='rams.html'>
-                        <img src='img/raamatukogu/crush.jpg' id='valikuimg'>
-                        <div class="overlay">
-                            <p class="overlaytext">Istun oma kursakaaslasest crushi juurde</p>
-                        </div>
-                    </a>
-                </div>
+            <div id="valikud" class=valikud>
+                <!-- See on template, milles luuakse javascriptiga uued nupud -->
             </div>
         </section>
     </body>

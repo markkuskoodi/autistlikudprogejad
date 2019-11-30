@@ -2,10 +2,10 @@
 _DEBUG = true
 
 // esimene tseen mida näidatakse
-const _ESIMENE_TSEEN = "magama"
+const _ESIMENE_TSEEN = "raamatukogu"
 
 // aeg, kaua loader ees seisab pärast lehe laadimist
-_TIME_TO_WAIT = 1000 * 1 // millisekundites
+const _TIME_TO_WAIT = 1000 * 1 // millisekundites
  
 // köhi välja debug kirjed, kui vaja
 function debug() {

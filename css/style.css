@@ -1,6 +1,5 @@
 
 body{
-    background-image: url('img/linn.jpg');
     padding: 100px;
     margin-top: 150px;
     background-repeat: no-repeat;
@@ -11,6 +10,7 @@ body{
 #main{
     width: 1200px;
     margin: 0 auto;
+    margin-top: -150px;
     background: #f4f4f4;
     box-shadow: 0 0px 12px #82838a, 0 3px 12px #82838a;
     border-radius: 10px;

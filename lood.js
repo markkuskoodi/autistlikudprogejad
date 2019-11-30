@@ -41,17 +41,30 @@ const STORY = {
         ]
     },
     raamatukogu: {
-        story: "pede",
+        pealkiri: "Raamatukogus",
+        pealkiri2: "Mõni tund enne tööd",
+        pilt: "img/raamatukogu/raamatukogu2.jpg",
+        story: "Paanikaga segunenud ahastus viib su mõtted ühe koha peale, mis sind eelnevatest\
+                akadeemilistest probleemidest nii mitmel korral välja aidanud on - raamatukogu.<br><br>\
+                Korjad oma laiali oleva paberimajanduse kokku, viskad kõik ruttu koos läpakaga kotti,\
+                lööd mütsi pähe ja sead sammud raamatukogu poole.<br><br>\
+                Jõudes raamatukokku paned oma viimase euroga riided riidehoidu ja kiirustad üles. Avad ukse\
+                ja leiad ennast saali keskelt lolli näoga oma kursakaaslasest crushi jõllitamast ning jälle seisad valiku ees.\
+                Üle oma möllavate hormoonide on mõtteis vaikselt kuulda ka häält, mis kõlab kahtlaselt kaine mõistuse moodi.<br><br>\
+                <b>Mida sa teed?</b><br><br>\
+                Kordad mataks koos oma crushiga, teades, et emotsioonid võivad segada õppetööd, kuid samas kaks pead on kaks pead.<br><br>\
+                VÕI<br><br>\
+                Kordad mataks üksi, lootes oma individuaalsele tarkusele, mida pole just palju, kuid saad vähemalt keskenduda.<br><br>",
         buttons: [
             {
-                image: "img/library.jpg",
-                text: "nuudel",
-                action: "maugel"
+                image: "img/raamatukogu/Üksi1.jpg",
+                text: "Kordan ise",
+                action: "kordanIse"
             },
             {
-                image: "img/breakfast.jpg",
-                text: "kaun",
-                action: "sein"
+                image: "img/raamatukogu/crush.jpg",
+                text: "Istun oma kursakaaslasest crushi juurde",
+                action: "istunMusiJuurde"
             }
         ]
     },
@@ -147,4 +160,47 @@ const STORY = {
             }
         ]
     },
+    istunMusiJuurde:{
+        pealkiri: "Raamatukogus",
+        pealkiri2: "Mõni tund enne tööd",
+        pilt: "img/raamatukogu/raamatukogu2.jpg",
+        story: "Hormoonid saavad siiski kainest mõistusest võitu ja istud oma silmarõõmu juurde. Tänu ta osavatele seletustele mõistad peagi, et teema ei olegi nii raske kui emsapilgul tundus.\
+                Küll aga tihtipeale ei suuda sa hoida oma mõtteid vaos ning avastad ennast ikka ja jälle matemaatika asemel unistamast teist kahest koos hobusel päikseloojangusse kappamas.\
+                Kui teemaks tuleb päratu integraal hakkab teie vahel tüliõun kerkima.See oli küll ainuke asi millest sa enda arvates tunnis perfektselt aru said.<br><br>\
+                Olgugi, et see tund oli üksainus praks, milles sa natukene tähele panna viitsid.Su kergelt ärritunud silmarõõm kirjutab tahvlile järgmise integraali ja laseb sul seda lahendada.<br><br>\
+                integraalist PILT<br><br>\
+                Vaidlete tükk aega selle lahenduse üle ja olukord läheb konsensuse puudumise tõttu järjest pingelisemaks.\
+                Sa ei teadnudki, et tal selline pool on.<br><br>\
+                Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.<br><br>",
+        buttons: [
+            {
+                image: "img/raamatukogu/kondoom.jpg",
+                text: "tekst",
+                action: "kordanIse",
+            },
+            {
+                image: "img/raamatukogu/kondoom.jpg",
+                text: "tekst",
+                action: "kordanIse"
+            }
+        ]
+    },
+    kordanIse: {
+        pealkiri: "Raamatukogus",
+        pealkiri2: "Mõni tund enne tööd",
+        pilt: "img/raamatukogu/raamatukogu2.jpg",
+        story: "Sead on akadeemilise edu hormoonidest tähtsamaks ja otsustad üksi korrata, olgugi, et jääd ainult oma naturaalsele intelligetnsile lootma.",
+        buttons: [
+            {
+                image: "img/raamatukogu/kondoom.jpg",
+                text: "tekst",
+                action: "istunMusiJuurde",
+            },
+            {
+                image: "img/raamatukogu/kondoom.jpg",
+                text: "tekst",
+                action: "istunMusiJuurde",
+            }
+        ]
+    }
 }   
