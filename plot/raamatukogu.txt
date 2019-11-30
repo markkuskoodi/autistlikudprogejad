@@ -1,4 +1,4 @@
-Valik:Raamatukogu
+﻿Valik:Raamatukogu
 
 Paanikaga segunenud ahastus viib su mõtted ühe koha peale, mis sind eelnevatest
 akadeemilistest probleemidest nii mitmel korral välja aidanud on - raamatukogu.
@@ -12,6 +12,6 @@ ja leiad ennast saali keskelt lolli näoga oma kursakaaslasest crushi jõllitama
 
 Mida sa teed?
 
-Kordad mataks koos oma crushiga, teades, et emotsioonid võivad segada õppetööd, samas kaks pead on kaks pead. 
+Kordad mataks koos oma crushiga, teades, et emotsioonid võivad segada õppetööd, kuid samas kaks pead on kaks pead. 
 VÕI
 Kordad mataks üksi, lootes oma individuaalsele tarkusele, mida pole just palju, kuid saad vähemalt keskenduda.
