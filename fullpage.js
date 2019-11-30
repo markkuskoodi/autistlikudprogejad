@@ -2,7 +2,7 @@
 _DEBUG = true
 
 // esimene tseen mida näidatakse
-_ESIMENE_TSEEN = "onPedeVa"
+_ESIMENE_TSEEN = "magama"
 
 // aeg, kaua loader ees seisab pärast lehe laadimist
 _TIME_TO_WAIT = 1000 * 1 // millisekundites
@@ -13,8 +13,6 @@ function debug() {
 }
 
 // kogu mängu loogika
-// ez as that
-// lemon squeeze
 function naitaTeksti(id) {
     // kui id ei sobi, pane funktsioon kinni
     if (!id) {
@@ -34,8 +32,17 @@ function naitaTeksti(id) {
     // kustuta kõik vanad nupud
     document.getElementById("valikud").innerHTML = ""
 
+    // muuda suur pilt ära
+    document.getElementById("suurPilt").src = STORY[id].pilt
+
+    //muuda suur pealkiri ära
+    document.getElementById("suurPealkiri").innerHTML = STORY[id].pealkiri
+
+    //muuda väike pealkiri ära
+    document.getElementById("väikePealkiri").innerHTML = STORY[id].pealkiri2
+
     // muuda ära story
-    document.getElementById("meme").innerHTML = STORY[id].story
+    document.getElementById("jutt").innerHTML = STORY[id].story
 
     // tee nii palju nuppe, kui on vaja
     for (let i in STORY[id]["buttons"]) {

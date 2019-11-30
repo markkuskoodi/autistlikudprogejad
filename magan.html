@@ -1,68 +1,28 @@
 <!DOCTYPE html>
 <html lang='et'>
     <head>
-        <script src="https://ajax.google.apis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://rawgit.com/alvarotrigo/fullPage.js/master/jquery.fullPage.js"></script>
-
         <meta charset='utf-8'>
         
+        <script src="fullpage.js"></script>
+        <script src="lood.js"></script>
+
         <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
         <link rel='stylesheet' href='css/style.css'>
         
         <title>ÜLI ÄGE MÄNG!!!??!?!</title>
     </head>
     <body>
-        <!--
-        <header id='header'>
-            <span>A day in the life of a</span>
-            <div class='pealkiri'>Student</div>
-        </header>
-        -->
         <section id='main'>
-            <img src='img/magama/krõbinaMain.jpg' id='img1'>
+            <img id="suurpilt" src='img/magama/krõbinaMain.jpg' class=img1>
             <div class=vahekaart>
-                <h2>Hommik</h2>
-                <p>Tund enne tööd</p>
+                <h2 id="suurPealkiri"></h2>
+                <p id="väikePealkiri"></p>
             </div>
             <div class=storybox>
-                <p>Matemaatikast tulenenud paanikahoog hääbub vaikselt enda jaoks loodud vabandustesse, millest suurema osa moodustavad
-                    "väga ei viitsi" ja "magamata laps on loll laps".
-                    Imselt tõusid liiga kiiresti püsti ja uni naaseb kättemaksuga.
-                    <br><br>
-                    "Panen korra pea padjale tagasi"
-                    
-                    <br><br>
-                    Pärast kaht tundi und ärkad süümepiinadega, aga mis tehtud see tehtud.
-                    <br><br>
-                    Nüüd, kus unepuudus on järgi andnud, kergitab kaloripuudus pead. Sead sammud toidukapi poole, kust sulle vaatab vastu
-                    laiutav tühjus. Leiad üksnes kapi nurgas asetsevad hommikuhelbeid. Jällegi ilmutab ennast uus peadmurdev valik.
-                    <br>
-                    <!--
-                    Kas hommikuhelbed ja siis piim?
-                    VÕI
-                    Piim ja siis hommikuhelbed?
-                    -->
-                </p>
-
-                <p><b>Mida sa nüüd teed?</b></p>
+                <p id="jutt"></p>
             </div>
             <div class=valikud>
-                <div class=valikucontainer>
-                    <a class="valikulink" href="magan.html"> 
-                        <img src='img/magama/helbed.jpg' id='valikuimg'>
-                        <div class="overlay">
-                            <p class="overlaytext">Krõbinad ja siis piim</p>
-                        </div>
-                    </a>
-                </div>
-                <div class=valikucontainer>
-                    <a class='valikulink' href='rams.html'>
-                        <img src='img/magama/helbed.jpg' id='valikuimg'>
-                        <div class="overlay">
-                            <p class="overlaytext">Piim ja siis krõbinad</p>
-                        </div>
-                    </a>
-                </div>
+                <!-- See on template, milles luuakse javascriptiga uued nupud-->    
             </div>
         </section>
     </body>

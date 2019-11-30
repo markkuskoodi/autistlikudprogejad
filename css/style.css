@@ -1,6 +1,6 @@
 
 body{
-    background-image: url('img/city41.jpg');
+    background-image: url("img/city41.jpg");
     padding: 100px;
     margin-top: 150px;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ body{
     color:white;
     text-shadow: 2px 2px 12px #82838a, 0 3px 12px #82838a;
 }
-#img1{
+.img1{
     max-width: 100%;
     display: block;
     margin: auto;
