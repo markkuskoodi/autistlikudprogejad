@@ -15,22 +15,22 @@ Milline on tiimisisene tööjaotus?
 
 Kristjan- HTML, CSS ja story
 Elina- HTML, CSS ja story
-Koodi- Javascript, HTML, CSS
+Markkus- Javascript, HTML, CSS
 
 
 
 Millised raskused esinesid? Mida õppisite?
 
-Õppisime, et css-is saab exceptione kirjutada. Nt et muudatsed käivad mingi classi kohta, aga sealt on välja arvatud nt paragraafid.
+Õppisime, et css-is saab exceptione kirjutada. Nt et muudatused käivad mingi classi kohta, aga sealt on välja arvatud nt paragraafid.
 Saime üleüldiselt meelde tuletada oma htmli ja css-i oskusi.
 Veebilehte valmistades saime ka teadmisi veebilehe disaini osas, millised värvid üksteisega sobivad,
-kuidas oleks ilus elemente paigutada.
+kuidas oleks ilus elemente paigutada, jne.
 
 Saime kasutusse panna oma gümnaasiumis omandatud eesti õigekeele oskused.
 
 Õppisime pinnapealselt kasutama javascripti.
 
-Leidsime, et kirjanikutöö on tunduvalt keerulisem, kui esialgselt näib. "Branching" lugusid kirjutades
-tuli mitmel korral ette küsimusi, et kuidas mingi mõtterada teisega ühendada ja kuidas kirjutada lugu selliselt,
+Leidsime, et kirjanikutöö on tunduvalt keerulisem, kui esialgselt näib, eriti "Branching" lugusid kirjutades.
+Tuli mitmel korral ette küsimusi, et kuidas mingi mõtterada teisega ühendada ja kuidas kirjutada lugu selliselt,
 et oleks põnev nii endal kui ka uutel lugejatel, pidades silmas seda, et lugu liialt laiali ei valguks.
 
