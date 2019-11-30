@@ -1,19 +1,15 @@
 Hormoonid saavad siiski kainest mõistusest võitu ja istud oma silmarõõmu juurde. Tänu ta osavatele seletustele mõistad peagi, et teema ei olegi nii raske kui emsapilgul tundus.
 Küll aga tihtipeale ei suuda sa hoida oma mõtteid vaos ning avastad ennast ikka ja jälle matemaatika asemel unistamast teist kahest koos hobusel päikseloojangusse kappamas.
-Kui teemaks tuleb päratu integraal hakkab teie vahel tüliõun kerkima. See oli küll ainuke asi millest sa enda arvates tunnis perfektselt aru said.
+Kui teemaks tuleb päratu integraal hakkab teie vahel tüliõun kerkima. See oli küll ainuke asi millest sa enda arvates tunnis perfektselt aru said.<br><br>
 
-Olgugi, et see tund oli üksainus praks, milles sa natukene tähele panna viitsid.Su kergelt ärritunud silmarõõm kirjutab tahvlile järgmise integraali ja laseb sul seda lahendada. 
+Olgugi, et see tund oli üksainus praks, milles sa natukene tähele panna viitsid.Su kergelt ärritunud silmarõõm kirjutab tahvlile järgmise integraali ja laseb sul seda lahendada.<br><br> 
 
-integraal: midagi väga  (pilt?)
+integraalist PILT<br><br>
 
 Vaidlete tükk aega selle lahenduse üle ja olukord läheb konsensuse puudumise tõttu järjest pingelisemaks.
-Sa ei teadnudki, et tal selline pool on.
+Sa ei teadnudki, et tal selline pool on.<br><br>
 
-Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.
+Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.<br><br>
 
-Milleks on?
-
-
-integrate ((x+pi/2)*(cosx)**10+3*x*sinx+7)dx from -pi to 0
 
 

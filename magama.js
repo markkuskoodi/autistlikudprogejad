@@ -5,7 +5,7 @@ _DEBUG = true
 const _ESIMENE_TSEEN = "magama"
 
 // aeg, kaua loader ees seisab pärast lehe laadimist
-//const _TIME_TO_WAIT = 1000 * 1 // millisekundites
+const _TIME_TO_WAIT = 1000 * 1 // millisekundites
  
 // köhi välja debug kirjed, kui vaja
 function debug() {

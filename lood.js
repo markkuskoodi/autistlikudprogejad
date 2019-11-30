@@ -1,6 +1,4 @@
-// Ainult story tekstid, ei kirjuta koodi siia raisk!!
-// by Keeeenion, signed 29.11.19
-
+// Ainult story tekstid
 // JSON struktuur
 /*
 {
@@ -34,7 +32,7 @@ const STORY = {
                 action: "krõbinadPiim"
             },
             {
-                image: "img/magama/helbed.jpg",
+                image: "img/magama/piim.jpg",
                 text: "Piim ja siis krõbinad",
                 action: "piimKrõbinad"
             }
@@ -163,24 +161,24 @@ const STORY = {
     istunMusiJuurde:{
         pealkiri: "Raamatukogus",
         pealkiri2: "Mõni tund enne tööd",
-        pilt: "img/raamatukogu/raamatukogu2.jpg",
+        pilt: "img/raamatukogu/integraalMain.jpg",
         story: "Hormoonid saavad siiski kainest mõistusest võitu ja istud oma silmarõõmu juurde. Tänu ta osavatele seletustele mõistad peagi, et teema ei olegi nii raske kui emsapilgul tundus.\
                 Küll aga tihtipeale ei suuda sa hoida oma mõtteid vaos ning avastad ennast ikka ja jälle matemaatika asemel unistamast teist kahest koos hobusel päikseloojangusse kappamas.\
                 Kui teemaks tuleb päratu integraal hakkab teie vahel tüliõun kerkima.See oli küll ainuke asi millest sa enda arvates tunnis perfektselt aru said.<br><br>\
                 Olgugi, et see tund oli üksainus praks, milles sa natukene tähele panna viitsid.Su kergelt ärritunud silmarõõm kirjutab tahvlile järgmise integraali ja laseb sul seda lahendada.<br><br>\
-                integraalist PILT<br><br>\
+                <img src='img/raaamatukogu/integraal.png'><br><br>\
                 Vaidlete tükk aega selle lahenduse üle ja olukord läheb konsensuse puudumise tõttu järjest pingelisemaks.\
                 Sa ei teadnudki, et tal selline pool on.<br><br>\
                 Lõpuks paned oma jala maha ja jääd kindlaks ühele vastusele.<br><br>",
         buttons: [
             {
-                image: "img/raamatukogu/kondoom.jpg",
-                text: "tekst",
+                image: "img/raamatukogu/integraalMain.jpg",
+                text: "10π",
                 action: "kordanIse",
             },
             {
-                image: "img/raamatukogu/kondoom.jpg",
-                text: "tekst",
+                image: "img/raamatukogu/integraalMain.jpg",
+                text: "6π - 7",
                 action: "kordanIse"
             }
         ]
