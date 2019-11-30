@@ -2,7 +2,7 @@
 _DEBUG = true
 
 // esimene tseen mida näidatakse
-_ESIMENE_TSEEN = "magama"
+const _ESIMENE_TSEEN = "magama"
 
 // aeg, kaua loader ees seisab pärast lehe laadimist
 _TIME_TO_WAIT = 1000 * 1 // millisekundites
@@ -61,7 +61,7 @@ function naitaTeksti(id) {
         // ulme nupu elemendi kood
         // xss turvaauk aga keda huvitab eks...
         div.innerHTML = '\
-            <img id="pede" alt="image" src="'+ nupp.image + '" class="valikuimg">\
+            <img alt="image" src="'+ nupp.image + '" class="valikuimg">\
             <div id="nupu-tekst" class="overlay">\
                 <a class="overlaytext" href="#" onclick="naitaTeksti(\''+ nupp.action + '\');return false;">' + nupp.text + '</a>\
             </div>\

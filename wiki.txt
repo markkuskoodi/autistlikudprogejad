@@ -16,7 +16,7 @@ Milline on tiimisisene tööjaotus?
 Kristjan- HTML, CSS ja story
 Elina- HTML, CSS ja story
 Markkus- Javascript, HTML, CSS
-
+Kõikide tiimiliikmete vahel jagunes töö võrdselt
 
 
 Millised raskused esinesid? Mida õppisite?
@@ -33,4 +33,6 @@ Saime kasutusse panna oma gümnaasiumis omandatud eesti õigekeele oskused.
 Leidsime, et kirjanikutöö on tunduvalt keerulisem, kui esialgselt näib, eriti "Branching" lugusid kirjutades.
 Tuli mitmel korral ette küsimusi, et kuidas mingi mõtterada teisega ühendada ja kuidas kirjutada lugu selliselt,
 et oleks põnev nii endal kui ka uutel lugejatel, pidades silmas seda, et lugu liialt laiali ei valguks.
+
+Arendasime koostööoskusi ja mõistsime, et igal inimesel on erinev sobiv töötamise aeg. Kellele sobib päeval ja kellele sobib öösel 1 päev enne tähtaega.
 
