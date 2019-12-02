@@ -2,7 +2,7 @@
 _DEBUG = true
 
 // esimene tseen mida näidatakse
-const _ESIMENE_TSEEN = "magama"
+const _ESIMENE_TSEEN = "arkamine"
 
 // aeg, kaua loader ees seisab pärast lehe laadimist
 const _TIME_TO_WAIT = 1000 * 1 // millisekundites

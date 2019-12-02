@@ -3,6 +3,9 @@
 /*
 {
     scene name: {       <-- Tseeni nimi, mida kutsutakse nuppudele vajutades
+        pealkiri: ...   <-- Pealkiri mida näidatakse suure pildi all
+        pealkiri2: ...  <-- Suure pealkirja all olev tekst
+        pilt: ...       <-- Pealkirja kohal olev pilt
         story: ...      <-- Tekst mida kuvatakse jutuna enne nuppe
         buttons: [      <-- Selle tseeni võimalikud valikud
             image: ...  <-- Pildi route, mida kuvatakse nupu all
@@ -14,6 +17,30 @@
 */
 
 const STORY = {
+    arkamine: {
+        pealkiri: "Hommik",
+        pealkiri2: "Uus nädal",
+        pilt: "img/alarm.jpg",
+        story: 'Varajane hommik.<br><br>\
+                Veedad oma viimaseid minuteid pehmel padjal ja sooja teki all, kuid unesegadusest ja palvetest hoolimata saad aru,\
+                et iga hetk hakkab äratuskell lõugama, tähistades uue nädala algust. Oma viimastel vaikusemomentidel tunned suus eile Illegaardis joodud kokteilide maitseid ja veedad mõtetes veel paar hetke justkui paradiisis, milleks oli möödnud nädalavahetus.<br><br>\
+                Kell hakkab lõugama.<br><br>\
+                Kriiskava äratuse saatel kinnistub algava koolinädala karm reaalsus sulle järjest rohkem pähe ning olenemata sellest, kui palju sa sellele "Snooze" nupule vajutad, pead sa kunagi ikka ennnast üles ajama.<br><br>\
+                Järsku meenub sulle, et täna kell 12 on KM-is KT. Momentaanne ahastus seguneb paanikaga ja sa kargad voodist välja.<br><br>\
+                <b>Mida sa nüüd teed?</b>',
+        buttons: [
+            {
+                image: "img/sleep.jpg",
+                text: "Magan edasi",
+                action: "magama",
+            },
+            {
+                image: "img/library.jpg",
+                text: "Raamatukokku kordama",
+                action: "raamatukogu",
+            }
+        ]
+    },
     magama: {
         pealkiri: "Hommik",
         pealkiri2: "Tund enne tööd",
